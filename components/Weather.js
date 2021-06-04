@@ -51,10 +51,7 @@ export default function Weather({ weatherData, fetchWeatherData }) {
                         <Text style={{ fontSize: 22, color: 'white' }}>{humidity} %</Text>
                     </View>
 
-                    <View style={styles.info}>
-                        <Text style={{ fontSize: 22, color: 'white' }}>Wind Speed</Text>
-                        <Text style={{ fontSize: 22, color: 'white' }}>{speed} m/s</Text>
-                    </View>
+
 
                 </View>
 
