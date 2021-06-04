@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
     },
     backgroundImg: {
         flex: 1,
-        width: Dimensions.get('screen').width
+        resizeMode: 'stretch'
     },
     headerText: {
         fontSize: 36,
